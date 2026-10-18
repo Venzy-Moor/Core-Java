@@ -1,53 +1,53 @@
 public class Encapsulation {
     //Your code goes here
 
-    class Book{
-        private List<String> title;
-        private List<String> author;
-        private List<Boolean> isAvailable;
-
-        public Book(List<String>title, List<String>author, List<Boolean>isAvailable){
-            this.title=title;
-            this.author=author;
-            this.isAvailable=isAvailable;
-        }
-        public void borrowBook(String bookName){
-            for(int i=0;i<title.size();i++){
-                if(title.get(i).equals(bookName)){
-                    if(isAvailable.get(i)){
-                        isAvailable.set(i,false);
-                        return;
-                    }else{
-                        System.out.println("Book is not available.");
-                        return;
-                    }
-                }
-            }
-            System.out.println("Book is not available.");
-        }
-        public void returnBook(String bookName){
-            for(int i=0;i<title.size();i++){
-                if(title.get(i).equals(bookName)){
-                    if(!isAvailable.get(i)){
-                        isAvailable.set(i,true);
-                        return;
-                    }
-                }
-            }
-        }
-        public void getAvailability(String bookName){
-            for(int i=0;i<title.size();i++){
-                if(title.get(i).equals(bookName)){
-                    if(isAvailable.get(i)){
-                        System.out.println("true");
-                        return;
-                    }
-                }
-            }
-            System.out.println("false");
-        }
-    }
-
+//    class Book{
+//        private List<String> title;
+//        private List<String> author;
+//        private List<Boolean> isAvailable;
+//
+//        public Book(List<String>title, List<String>author, List<Boolean>isAvailable){
+//            this.title=title;
+//            this.author=author;
+//            this.isAvailable=isAvailable;
+//        }
+//        public void borrowBook(String bookName){
+//            for(int i=0;i<title.size();i++){
+//                if(title.get(i).equals(bookName)){
+//                    if(isAvailable.get(i)){
+//                        isAvailable.set(i,false);
+//                        return;
+//                    }else{
+//                        System.out.println("Book is not available.");
+//                        return;
+//                    }
+//                }
+//            }
+//            System.out.println("Book is not available.");
+//        }
+//        public void returnBook(String bookName){
+//            for(int i=0;i<title.size();i++){
+//                if(title.get(i).equals(bookName)){
+//                    if(!isAvailable.get(i)){
+//                        isAvailable.set(i,true);
+//                        return;
+//                    }
+//                }
+//            }
+//        }
+//        public void getAvailability(String bookName){
+//            for(int i=0;i<title.size();i++){
+//                if(title.get(i).equals(bookName)){
+//                    if(isAvailable.get(i)){
+//                        System.out.println("true");
+//                        return;
+//                    }
+//                }
+//            }
+//            System.out.println("false");
+//        }
+//    }
+//
 
 //Please Do not change anything below, It is only for your reference.
 /*
