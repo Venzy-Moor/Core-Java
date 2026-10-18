@@ -1,28 +1,28 @@
 public class Constructors {
     //Your code goes here
 
-    class Rectangle{
-        private double length;
-        private double width;
-        private double area;
-
-        public Rectangle(){
-            length=1.0;
-            width=1.0;
-        }
-        public Rectangle(double length, double width){
-            this.length=length;
-            this.width=width;
-        }
-        public void calculateArea(){
-            area = length*width;
-        }
-        public void displayDetails(){
-            System.out.printf("Length : %.2f\n",length);
-            System.out.printf("Width : %.2f\n",width);
-            System.out.printf("Area : %.2f\n",area)
-        }
-    }
+//    class Rectangle{
+//        private double length;
+//        private double width;
+//        private double area;
+//
+//        public Rectangle(){
+//            length=1.0;
+//            width=1.0;
+//        }
+//        public Rectangle(double length, double width){
+//            this.length=length;
+//            this.width=width;
+//        }
+//        public void calculateArea(){
+//            area = length*width;
+//        }
+//        public void displayDetails(){
+//            System.out.printf("Length : %.2f\n",length);
+//            System.out.printf("Width : %.2f\n",width);
+//            System.out.printf("Area : %.2f\n",area)
+//        }
+//    }
 
 
 //Please Do not change anything below, It is only for your reference.
